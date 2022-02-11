@@ -1,8 +1,12 @@
 {
-  "name": "enigmajs",
+  "name": "easy-enigma",
   "version": "1.0.0",
   "description": "An npm package to simulate the enigma encrytption machine",
   "main": "index.js",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/armoredvortex/easy-enigma"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
