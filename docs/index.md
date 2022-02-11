@@ -30,24 +30,24 @@ console.log(engine.convert(message));
 ```javascript
 const enigmajs = require('enigmajs');
 ```
-
 ### Creating a rotor
 ```javascript
 const rotor1 = enigmajs.rotor(/* Rotor Configuration */, /* Current rotor position */);
 ```
-example:
-```javascript
-const rotor1 = enigmajs.rotor('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'A');
-````
 
 ### Creating a reflector
 ```javascript
 const reflector = enigmajs.reflector(/* Reflector Configuration */);
 ```
-example:
+
+### Creating the enigma engine
 ```javascript
-const reflector = enigmajs.reflector('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
-````
+const engine = enigmajs.engine( [/* rotor1, rotor2, rotor3 */], /* reflector */
+```
+### Modifying rotor position on engine
+```javascript
+engine.setRotorPositions(['A', 'A', 'A]);
+```
 ### Support or Contact
 
 Having trouble? Check out our [documentation](/#Documentation) or [contact me](https://github.com/armoredvortex) and we’ll help you sort it out.
