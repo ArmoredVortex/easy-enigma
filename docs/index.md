@@ -19,7 +19,14 @@ const engine = enigmajs.engine([rotor1, rotor2, rotor3],reflector)
 const message = 'Hello World'
 console.log(engine.convert(message));
 ```
+### Features
+- Super simple
+- Easy to use
+- Customisable
+
+### Documentation
+coming soon*
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation]() or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble? Check out our [documentation](/#Documentation) or [contact me](https://github.com/armoredvortex) and we’ll help you sort it out.
