@@ -8,7 +8,7 @@ function checkLetters(str){
     return false
 }
 
-function rotor(configuration, position) {
+function reflector(configuration) {
     if (configuration.length != 26) {
         return console.error('Rotor Configuration must be a string of length 26');
     }    
@@ -16,19 +16,11 @@ function rotor(configuration, position) {
     if (!checkLetters(configuration)) {
         return console.error('Rotor configuration must contain distinct alphabets only');
     }
-    if (/^[a-zA-Z]+$/.test(position)) {
-        if (position.length != 1) {
-            return console.error('Rotor position must be a single alphabet');
-        }
-    } else {
-        return console.error('Rotor position must be a single alphabet');
-    }
-    let rotor = {};
+    let reflector = {};
     for (var i = 0; i < configuration.length; i++) {
-        rotor[i+1] = convertStr.letterToNum(configuration[i].toLowerCase())
+        reflector[i+1] = convertStr.letterToNum(configuration[i].toLowerCase())
     }
-    position = convertStr.letterToNum(position.toLowerCase())
-    return {rotor, position}
+    return reflector;
 }
 
-module.exports = rotor;
+module.exports = reflector
