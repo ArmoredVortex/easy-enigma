@@ -1,0 +1,11 @@
+{
+  "name": "enigmajs",
+  "version": "1.0.0",
+  "description": "An npm package to simulate the enigma encrytption machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "armoredvortex",
+  "license": "MIT"
+}
