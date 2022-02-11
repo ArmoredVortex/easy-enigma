@@ -14,3 +14,4 @@ function numToLetter(num) {
 }
 
 module.exports.letterToNum = letterToNum
+module.exports.numToLetter = numToLetter
