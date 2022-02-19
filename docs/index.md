@@ -46,7 +46,7 @@ const engine = enigmajs.engine( [/* rotor1, rotor2, rotor3 */], /* reflector */
 ```
 ### Modifying rotor position on engine
 ```javascript
-engine.setRotorPositions(['A', 'A', 'A]);
+engine.setRotorPositions(['A', 'A', 'A']);
 ```
 ### Support or Contact
 
