@@ -50,4 +50,4 @@ engine.setRotorPositions(['A', 'A', 'A']);
 ```
 ### Support or Contact
 
-Having trouble? Check out our [documentation](/#Documentation) or [contact me](https://github.com/armoredvortex) and we’ll help you sort it out.
+Having trouble? Check out our [documentation](/#Documentation) or [contact me](https://armoredvortex.github.io/#contact) and we’ll help you sort it out.
