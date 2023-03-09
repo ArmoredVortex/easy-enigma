@@ -8,7 +8,7 @@ NPM: <br>
 (scroll below for detailed instructions)
 
 ```javascript
-const enigmajs = require('enigmajs');
+const enigmajs = require('easy-enigma');
 
 const rotor1 = enigmajs.rotor('BDFHJLCPRTXVZNYEIWGAKMUSQO', 'A');
 const rotor2 = enigmajs.rotor('AJDKSIRUXBLHWTMCQGZNPYFVOE', 'A');
@@ -28,7 +28,7 @@ console.log(engine.convert(message));
 ## Detailed Instructions
 ### Import
 ```javascript
-const enigmajs = require('enigmajs');
+const enigmajs = require('easy-enigma');
 ```
 ### Creating a rotor
 ```javascript
