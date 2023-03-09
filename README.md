@@ -42,7 +42,7 @@ const reflector = enigmajs.reflector(/* Reflector Configuration */);
 
 ### Creating the enigma engine
 ```javascript
-const engine = enigmajs.engine( [/* rotor1, rotor2, rotor3 */], /* reflector */
+const engine = enigmajs.engine( [/* rotor1, rotor2, rotor3 */], /* reflector */);
 ```
 ### Modifying rotor position on engine
 ```javascript
